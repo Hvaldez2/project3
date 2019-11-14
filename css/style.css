@@ -1,0 +1,208 @@
+body { font-family: Courier, monospace;
+background-image: linear-gradient(#ccffff, #1be7fe);
+}
+nav {
+text-align:center;
+font-size: 50px;
+  background-color:#ccffff;
+;
+}
+a.nav {
+color: black;
+padding:0 30px; 
+}
+a.nav:hover{
+background-color: #ddd;
+color: black;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+color:white;
+}
+li{
+display:inline;
+}
+
+
+/* Index Page*/
+h1 { 
+text-align:center;
+font-family: 'Source Sans Pro', sans-serif;
+color: black;
+padding: 50px 10px 5px 10px;
+font-size: 3em;
+}
+img.indeximage {
+display: block;  
+width:50%;
+height:50%; 
+margin-left:auto; 
+margin-right:auto;
+padding-top:30px;
+}
+img.indeximageround {
+display: block;  
+width:50%;
+height:50%; 
+margin-left:auto; 
+margin-right:auto;
+border-radius: 50%;
+}
+span {
+color:red;
+font-weight: 1000;
+font-style: italic;
+}
+p {
+padding-left: 100px;
+padding-right: 100px;
+font-family: 'Play', sans-serif;
+font-size: 1.5em;
+}
+iframe{
+display:block; margin:0 auto;
+}
+
+/* Blog css*/
+
+h1.h1blog { 
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+	padding: 50px 10px 5px 10px;
+	font-size: 3em;
+	text-align: center;
+}
+
+h2.h2blog{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: black;
+	padding: 5px 5px 5px 5px;
+	font-size: 1.8em;
+	text-align: center;
+}
+
+
+h3.h3blog{
+	font-style:italic;
+	padding-left: 10%
+}
+
+img.blogimage {
+            display: block;  
+			width:50%;
+			height:50%; 
+			margin-left:auto; 
+			margin-right:auto;
+        }
+		
+
+
+
+p.pblog {
+	font-family: 'Play', sans-serif;
+	font-size: 1.75em;
+	padding-left: 100px;
+padding-right: 100px;
+}
+
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* resume page css */
+
+
+#two {
+  font-size: 12pt;
+  color:black;
+
+}
+
+#one li{
+	display:inline;
+	
+
+}
+
+#two li{
+	font-family: 'Play', sans-serif;
+	font-size: 12pt;
+	padding-left: 100px;
+padding-right: 100px;
+	display:block;
+	list-style-type: square;
+}
+
+h1.h1resume { 
+	font-family: 'Source Sans Pro', sans-serif;
+	color: navy;
+	padding: 50px 10px 5px 10px;
+	font-size: 20pt;
+	text-align: center;
+}
+h2.h2resume { 
+	font-family: 'Source Sans Pro', sans-serif;
+	color: navy;
+	padding: 10px 10px 5px 10px;
+	font-size: 16pt;
+	text-align: center;
+}
+
+h3.h3resume { 
+	font-family: 'Source Sans Pro', sans-serif;
+	color: navy;
+	padding: 10px 10px 5px 10px;
+	font-size: 14pt;
+	
+}
+
+h4.h4resume { 
+	font-family: 'Source Sans Pro', sans-serif;
+	color: navy;
+	padding: 5px 5px 5px 10px;
+	font-size: 12pt;
+	font-style: italic;
+}
+
+
+
+p.presume {
+	font-family: 'Play', sans-serif;
+	font-size: 12pt;
+	padding-left: 100px;
+padding-right: 100px;
+}
