@@ -2,8 +2,9 @@ html, body {
         height: 100%;
         margin: 0;
         padding: 0;
-		background-image: linear-gradient(#ccffff, #1be7fe);
-
+			/*background-image: linear-gradient(#ccffff, #1be7fe);
+*/
+		background-color:#ccffff;
       }
 	  
 nav {
