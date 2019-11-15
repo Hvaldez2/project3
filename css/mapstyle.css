@@ -1,0 +1,35 @@
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+	  
+nav {
+text-align:center;
+font-size: 50px;
+  background-color:#ccffff;
+;
+}
+a.nav {
+color: black;
+padding:0 30px; 
+}
+a.nav:hover{
+background-color: #ddd;
+color: black;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+color:white;
+}
+li{
+display:inline;
+}
+
+
+#map{
+	height:  100%;
+}
