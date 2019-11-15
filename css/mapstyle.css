@@ -47,3 +47,19 @@ font-size: 3em;
   margin-right: auto;
   margin-top: 50px;
 }
+
+img.indeximage {
+display: block;  
+width:50%;
+height:50%; 
+margin-left:auto; 
+margin-right:auto;
+padding-top:30px;
+}
+
+p {
+padding-left: 100px;
+padding-right: 100px;
+font-family: 'Play', sans-serif;
+font-size: 1.5em;
+}
