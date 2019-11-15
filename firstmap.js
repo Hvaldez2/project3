@@ -10,6 +10,51 @@ function initMap() {
     },
     zoom: 3
   });
+  
+  //images
+  var frenchflag = {
+    url: "./images/franceflag.png", // url
+    scaledSize: new google.maps.Size(20, 20), // scaled size
+    origin: new google.maps.Point(0,0), // origin
+    anchor: new google.maps.Point(0, 0) // anchor
+};
+	var turkishflag = {
+    url: "./images/turkishflag.png", // url
+    scaledSize: new google.maps.Size(20, 20), // scaled size
+    origin: new google.maps.Point(0,0), // origin
+    anchor: new google.maps.Point(0, 0) // anchor
+};
+var cambodianflag = {
+    url: "./images/cambodianflag.png", // url
+    scaledSize: new google.maps.Size(20, 20), // scaled size
+    origin: new google.maps.Point(0,0), // origin
+    anchor: new google.maps.Point(0, 0) // anchor
+};
+var thaiflag = {
+    url: "./images/thaiflag.png", // url
+    scaledSize: new google.maps.Size(20, 20), // scaled size
+    origin: new google.maps.Point(0,0), // origin
+    anchor: new google.maps.Point(0, 0) // anchor
+};
+var saflag = {
+    url: "./images/saflag.png", // url
+    scaledSize: new google.maps.Size(20, 20), // scaled size
+    origin: new google.maps.Point(0,0), // origin
+    anchor: new google.maps.Point(0, 0) // anchor
+};
+var greekflag = {
+    url: "./images/greekflag.png", // url
+    scaledSize: new google.maps.Size(20, 20), // scaled size
+    origin: new google.maps.Point(0,0), // origin
+    anchor: new google.maps.Point(0, 0) // anchor
+};
+var spanishflag = {
+    url: "./images/spanishflag.png", // url
+    scaledSize: new google.maps.Size(20, 20), // scaled size
+    origin: new google.maps.Point(0,0), // origin
+    anchor: new google.maps.Point(0, 0) // anchor
+};
+
   //paris
   var contentString = '<div id="content">'+
             '<div id="siteNotice">'+
@@ -28,7 +73,8 @@ function initMap() {
       lng: 2.3522
     },
     map: map,
-    title: 'Paris'
+    title: 'Paris',
+	icon: frenchflag
   });
   marker.addListener('click', function () {
     infowindow.open(map, marker);
@@ -52,7 +98,8 @@ function initMap() {
       lng: 2.1734
     },
     map: map,
-    title: 'Barcelona'
+    title: 'Barcelona',
+	icon: spanishflag
   });
   markerBarcelona.addListener('click', function () {
     infowindowBarcelona.open(map, markerBarcelona);
@@ -77,7 +124,8 @@ function initMap() {
       lng: 28.9784
     },
     map: map,
-    title: 'Istanbul'
+    title: 'Istanbul',
+	icon: turkishflag
   });
   markerIstanbul.addListener('click', function () {
     istanbulInfo.open(map, markerIstanbul);
@@ -103,7 +151,8 @@ function initMap() {
       lng: 103.8540
     },
     map: map,
-    title: 'Siem Reap'
+    title: 'Siem Reap',
+	icon: cambodianflag
   });
   markerSiem.addListener('click', function () {
     siemreapinfo.open(map, markerSiem);
@@ -127,7 +176,8 @@ function initMap() {
       lng: 28.0473
     },
     map: map,
-    title: 'Johanesburg'
+    title: 'Johanesburg',
+	icon: saflag
   });
   markerJoburg.addListener('click', function () {
     joburgInfo.open(map, markerJoburg);
@@ -152,7 +202,8 @@ function initMap() {
       lng:100.5018
     },
     map: map,
-    title: 'Bangkok'
+    title: 'Bangkok',
+	icon: thaiflag
   });
   markerBangkok.addListener('click', function () {
     bangkokInfo.open(map, markerBangkok);
@@ -176,7 +227,8 @@ function initMap() {
       lng:20.6407
     },
     map: map,
-    title: 'Lefkada'
+    title: 'Lefkada',
+	icon: greekflag
   });
   markerGreece.addListener('click', function () {
     greekInfo.open(map, markerGreece);
