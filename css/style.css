@@ -143,6 +143,144 @@ padding-right: 100px;
   text-align: center;
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	
+h1.h1blog { 
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #636363;
+	padding: 10px 10px 10px 10px;
+	font-size: 3em;
+	text-align: center;
+}
+
+h2.h2blog{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #636363;
+	padding: 5px 5px 5px 5px;
+	font-size: 1.8em;
+	text-align: center;
+}
+
+
+h3.h3blog{
+	font-style:italic;
+	padding-left: 10%
+}
+
+img.blogimage {
+            display: block;  
+			width:50%;
+			height:50%; 
+			margin-left:auto; 
+			margin-right:auto;
+			border-radius: 50%;
+}
+        
+		
+
+
+
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+}
+
+
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 768px) {
+#bodyhtml { font-family: Courier, monospace;
+background-image: linear-gradient(90deg, rgba(241,241,0,1) 0%, rgba(255,0,0,1) 100%);
+
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+
+h1.h1blog { 
+	font-family: 'Source Sans Pro', sans-serif;
+	color:#3f3f3f;
+	padding: 50px 10px 5px 10px;
+	font-size: 3em;
+	text-align: center;
+}
+
+
+img.blogimage {
+            display: block;  
+			width:50%;
+			height:50%; 
+			margin-left:auto; 
+			margin-right:auto;
+			
+        }
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: red;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+}
+
 /* resume page css */
 
 #wrapper {
@@ -153,13 +291,13 @@ padding-right: 100px;
 
 #two {
   font-size: 12pt;
-  color:#636363;
+  color:grey;
 
 }
 
 #one li{
 	display:inline;
-	
+	color:gray;
 
 }
 
@@ -167,9 +305,10 @@ padding-right: 100px;
 	font-family: 'Play', sans-serif;
 	font-size: 12pt;
 	padding-left: 100px;
-padding-right: 100px;
+	padding-right: 100px;
 	display:block;
 	list-style-type: square;
+	color:gray;
 }
 
 h1.h1resume { 
@@ -214,6 +353,21 @@ padding-right: 100px;
 
 /* map*/
 
+#maphtml {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+			/*background-image: linear-gradient(#ccffff, #1be7fe);
+*/
+		background-color:#ccffff;
+      }
+	  
+
 #map{
-	height:  100%;
+  height: 50%;
+  width: 50%;
+  padding-top:  10%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
 }
