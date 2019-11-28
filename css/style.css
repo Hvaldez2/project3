@@ -310,7 +310,16 @@ img.blogimage {
 	list-style-type: square;
 	color:gray;
 }
-
+ul.two{
+	color:gray;
+	font-family: 'Play', sans-serif;
+	font-size: 12pt;
+	padding-left: 100px;
+	padding-right: 100px;
+	display:block;
+	list-style-type: square;
+	color:gray;
+}
 h1.h1resume { 
 	font-family: 'Source Sans Pro', sans-serif;
 	color: navy;
